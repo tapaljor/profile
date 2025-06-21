@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -84,7 +84,7 @@
             </div>
             <div class="project" id="project6">
                 <h3>Event Management</h3>
-                <h4>A comprehensive solution for managing events, reporting, scheduling, and resources, accessible via VPN.</h4>
+                <h5>A comprehensive solution for managing events, reporting, scheduling, and resources, accessible via VPN.</h5>
                 <button onclick="openPopup('popup6')">View Details</button>
             </div>
             <div class="project" id="project7">
@@ -97,7 +97,11 @@
                 <h5>A digital platform for archiving, cataloging, and managing museum artifacts with searchable metadata and high-resolution imagery.</h5>
                <button onclick="openPopup('popup8')">View Details</button>
             </div>
-        </div>
+            <div class="project" id="project9">
+                <h3>Ride Sharing App</h3>
+                <h5>A mobile application connecting drivers and passengers in real time, with features like ride requests, route tracking, fare estimation, and Firebase-based authentication.</h5>
+                <button onclick="openPopup('popup9')">View Details</button>
+            </div>
     </section>
 
     <!-- Popups for each project -->
@@ -299,7 +303,7 @@
         </div>
     </div>
     <div id="popup8" class="popup">
-    <div class="popup-content">
+        <div class="popup-content">
         <span class="close" onclick="closePopup('popup8')">&times;</span>
         <h3>Museum Digitization & Cataloging System</h3>
         <h4>Key Features:</h4>
@@ -318,8 +322,31 @@
             <li>Adobe Illustrator and Photoshop</li>
         </ul>
         <p><i>Note: The system is hosted internally and is accessible only via VPN.</i></p>
+        </div>
+    </div>
+    <div id="popup9" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup('popup9')">&times;</span>
+        <h3>Ride Sharing App</h3>
+        <h4>Key Features:</h4>
+        <ul>
+            <li>Real-time ride matching between drivers and passengers</li>
+            <li>Location tracking with Google Maps integration</li>
+            <li>Ride request, fare estimation, and trip history</li>
+            <li>User authentication and data management with Firebase</li>
+            <li>Clean, responsive UI following Material Design principles</li>
+        </ul>
+        <h4>Technologies Used</h4>
+        <ul>
+            <li>Kotlin</li>
+            <li>Android Studio</li>
+            <li>Firebase Auth & Realtime Database</li>
+            <li>Google Maps SDK</li>
+        </ul>
+        <p><i>Note: This project was developed as a mobile application targeting real-world users, with a focus on learning full-stack mobile app development.</i></p>
     </div>
 </div>
+
     <script src="script.js"></script>
 </body>
 

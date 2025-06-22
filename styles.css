@@ -150,9 +150,23 @@ button:hover {
     margin-bottom: 5px;
     color: #333;
 }
+.skills-education-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
 
+.skills-education-row .skills {
+    flex: 1;
+}
 @media (max-width: 1000px) {
     .project {
+        width: 100%;
+    }
+    .skills-education-row {
+        flex-direction: column;
+    }
+    .skills-education-row .skills {
         width: 100%;
     }
 }

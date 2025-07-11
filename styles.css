@@ -144,6 +144,24 @@ button:hover {
 .skills-education-row .skills {
     flex: 1;
 }
+.text-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.text-link:hover {
+    color: #45a049;
+    border-bottom: 2px solid #45a049;
+}
+
 .downloads-row {
     display: flex;
     justify-content: center;
@@ -153,19 +171,9 @@ button:hover {
     text-align: center;
 }
 
-.text-link {
-    color: #4CAF50;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    border-bottom: 2px solid transparent;
+.download-link {
+    max-width: 300px;
 }
- .text-link:hover {
-    color: #45a049;
-    border-bottom: 2px solid #45a049;
-}
-
 @media (max-width: 1000px) {
     .project {
         width: 100%;

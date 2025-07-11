@@ -112,21 +112,7 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
-/* Styling for the text-based links */
-.text-link {
-    color: #4CAF50; /* Soft green color matching the template */
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    display: block;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    border-bottom: 2px solid transparent;
-}
-.text-link:hover {
-    color: #45a049; /* Slightly darker green on hover */
-}
-/* Skills Section */
+
 .skills {
     padding: 20px;
     text-align: left;
